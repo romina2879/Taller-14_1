@@ -1,0 +1,21 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+  #contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; 
+    justify-content: center; 
+  }
+  
+  .card {
+    flex: 1 1 calc(22rem); 
+    max-width: 22rem; 
+  }
+  .card-img-top {
+  height: 200px; /* Ajusta la altura según tus necesidades */
+   object-fit: cover; /* Asegura que la imagen cubra todo el espacio */
+  }
+
+  
